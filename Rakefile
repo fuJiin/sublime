@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "sublime"
   gem.homepage = "http://github.com/fuJiin/sublime"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Ruby wrapper to manipulate preferences for Sublime Text"
+  gem.description = "Ruby wrapper to manipulate preferences for Sublime Text"
   gem.email = "fu7iin@gmail.com"
   gem.authors = ["Elpizo Choi"]
   # dependencies defined in Gemfile
