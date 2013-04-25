@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Elpizo Choi"]
-  s.date = "2013-04-20"
+  s.date = "2013-04-25"
   s.description = "Ruby wrapper to manipulate preferences for Sublime Text"
   s.email = "fu7iin@gmail.com"
   s.extra_rdoc_files = [
@@ -20,13 +20,17 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/sublime.rb",
+    "lib/sublime/platform/osx.rb",
+    "lib/sublime/settings.rb",
     "spec/spec_helper.rb",
-    "spec/sublime_spec.rb"
+    "spec/sublime_spec.rb",
+    "sublime.gemspec"
   ]
   s.homepage = "http://github.com/fuJiin/sublime"
   s.licenses = ["MIT"]

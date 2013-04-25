@@ -31,6 +31,11 @@ class Sublime
       end
     end
 
+    def update!(conf = {})
+      merge!(conf)
+      save!
+    end
+
     class << self
 
       def default
