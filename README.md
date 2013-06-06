@@ -1,4 +1,4 @@
-## Sublime
+# Sublime
 
 Basic wrapper for Sublime Text 2 settings.  Has shortcuts for default and user paths.
 
