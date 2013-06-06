@@ -1,8 +1,8 @@
-= Sublime
+## Sublime
 
 Basic wrapper for Sublime Text 2 settings.  Has shortcuts for default and user paths.
 
-== Basic Usage
+## Basic Usage
 
 ```ruby
 settings = Sublime::Settings.user.new
@@ -17,11 +17,11 @@ Sublime::Settings.user.update!("theme" => "Soda Dark.sublime-theme")
 
 Setting object are just Ruby hashes, so you can call any hash methods for manipulation.
 
-== Contributing
+## Contributing
 
 Only paths for OSX have been defined.  Feel free to fork do pull requests for filepaths on Linux or Windows.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2013 Elpizo Choi. See LICENSE.txt for
 further details.
